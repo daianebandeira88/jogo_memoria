@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+
+<body>
+    <section>
+                <div class="container">
+                    <div class="menu">
+                        <div class="menu-time">
+                            <h2>Time</h2>
+                            <h2 id="time-left">0</h2>
+                        </div>
+                        <div class="menu-score">
+                            <h2>score</h2>
+                            <h2 id="score">0</h2>
+                        </div>
+                    </div>
+                    <div class="panel"></div>
+                    <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+            
+                <!--fim background-->
+    </section>
+    <script src="src/scripts/engine.js"></script>
+</body>
+
+</html>
